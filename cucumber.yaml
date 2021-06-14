@@ -1,0 +1,2 @@
+---
+default: --format json --out=reports/cucumber.json

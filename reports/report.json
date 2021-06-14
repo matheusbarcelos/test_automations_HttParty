@@ -1,0 +1,324 @@
+[
+  {
+    "id": "manter-dados-de-startup-através-da-api",
+    "uri": "features/specifications/startup.feature",
+    "keyword": "Funcionalidade",
+    "name": "Manter dados de Startup através da API",
+    "description": "Como um usuário do sistema\nEu quero realizar as requisições na API\nA fim de manipular as informações do cadastro de startup",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@startup",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "manter-dados-de-startup-através-da-api;cadastrar-uma-startup",
+        "keyword": "Cenário",
+        "name": "Cadastrar uma Startup",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o endereço da API para manter o cadastro de Startup",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34500
+            },
+            "status": "passed",
+            "duration": 34500
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição para cadastrar uma startup",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 929950500
+            },
+            "status": "passed",
+            "duration": 929950500
+          },
+          {
+            "keyword": "Então ",
+            "name": "a API irá retornar os dados do cadastro da Startup respondendo o código 200",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3858200
+            },
+            "status": "passed",
+            "duration": 3858200
+          }
+        ],
+        "tags": [
+          {
+            "name": "@startup",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/hooks/startup_hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3162668900
+            },
+            "status": "passed",
+            "duration": 3162668900
+          }
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 4096512100
+      },
+      {
+        "id": "manter-dados-de-startup-através-da-api;consultar-uma-startup",
+        "keyword": "Cenário",
+        "name": "Consultar uma Startup",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o endereço da API para manter o cadastro de Startup",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            },
+            "status": "passed",
+            "duration": 10000
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição passando o ID da startup",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564971500
+            },
+            "status": "passed",
+            "duration": 564971500
+          },
+          {
+            "keyword": "Então ",
+            "name": "a API irá retornar os dados da Startup correspondente respondendo o código 200",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2074500
+            },
+            "status": "passed",
+            "duration": 2074500
+          }
+        ],
+        "tags": [
+          {
+            "name": "@startup",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/hooks/startup_hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531800
+            },
+            "status": "passed",
+            "duration": 531800
+          }
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 567587800
+      },
+      {
+        "id": "manter-dados-de-startup-através-da-api;alterar-uma-startup",
+        "keyword": "Cenário",
+        "name": "Alterar uma Startup",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o endereço da API para manter o cadastro de Startup",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8600
+            },
+            "status": "passed",
+            "duration": 8600
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição para alterar uma startup",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560986000
+            },
+            "status": "passed",
+            "duration": 560986000
+          },
+          {
+            "keyword": "Então ",
+            "name": "a API irá retornar os dados da Startup alterados respondendo o código 200",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2761800
+            },
+            "status": "passed",
+            "duration": 2761800
+          }
+        ],
+        "tags": [
+          {
+            "name": "@startup",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/hooks/startup_hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 497500
+            },
+            "status": "passed",
+            "duration": 497500
+          }
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 564253900
+      },
+      {
+        "id": "manter-dados-de-startup-através-da-api;deletar-uma-startup",
+        "keyword": "Cenário",
+        "name": "Deletar uma Startup",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o endereço da API para manter o cadastro de Startup",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            },
+            "status": "passed",
+            "duration": 10000
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição para excluir uma startup",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 569727000
+            },
+            "status": "passed",
+            "duration": 569727000
+          },
+          {
+            "keyword": "Então ",
+            "name": "a API deverá retornar os dados da exclusão respondendo o código 200",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/startup_steps.rb:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9366300
+            },
+            "status": "passed",
+            "duration": 9366300
+          }
+        ],
+        "tags": [
+          {
+            "name": "@startup",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/hooks/startup_hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335300
+            },
+            "status": "passed",
+            "duration": 335300
+          }
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 579438600
+      }
+    ],
+    "status": "working",
+    "duration": 5807792400
+  }
+]
