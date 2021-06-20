@@ -30,10 +30,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34500
+              "duration": 16900
             },
             "status": "passed",
-            "duration": 34500
+            "duration": 16900
           },
           {
             "keyword": "Quando ",
@@ -44,10 +44,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 929950500
+              "duration": 924718800
             },
             "status": "passed",
-            "duration": 929950500
+            "duration": 924718800
           },
           {
             "keyword": "Então ",
@@ -58,10 +58,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3858200
+              "duration": 19882700
             },
             "status": "passed",
-            "duration": 3858200
+            "duration": 19882700
           }
         ],
         "tags": [
@@ -77,17 +77,17 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3162668900
+              "duration": 5093167500
             },
             "status": "passed",
-            "duration": 3162668900
+            "duration": 5093167500
           }
         ],
         "after": [
 
         ],
         "status": "passed",
-        "duration": 4096512100
+        "duration": 6037785900
       },
       {
         "id": "manter-dados-de-startup-através-da-api;consultar-uma-startup",
@@ -106,10 +106,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000
+              "duration": 24900
             },
             "status": "passed",
-            "duration": 10000
+            "duration": 24900
           },
           {
             "keyword": "Quando ",
@@ -120,10 +120,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 564971500
+              "duration": 762824000
             },
             "status": "passed",
-            "duration": 564971500
+            "duration": 762824000
           },
           {
             "keyword": "Então ",
@@ -134,10 +134,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2074500
+              "duration": 2980000
             },
             "status": "passed",
-            "duration": 2074500
+            "duration": 2980000
           }
         ],
         "tags": [
@@ -153,17 +153,17 @@
             },
             "result": {
               "status": "passed",
-              "duration": 531800
+              "duration": 1590700
             },
             "status": "passed",
-            "duration": 531800
+            "duration": 1590700
           }
         ],
         "after": [
 
         ],
         "status": "passed",
-        "duration": 567587800
+        "duration": 767419600
       },
       {
         "id": "manter-dados-de-startup-através-da-api;alterar-uma-startup",
@@ -182,10 +182,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8600
+              "duration": 3346700
             },
             "status": "passed",
-            "duration": 8600
+            "duration": 3346700
           },
           {
             "keyword": "Quando ",
@@ -196,10 +196,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 560986000
+              "duration": 1412818300
             },
             "status": "passed",
-            "duration": 560986000
+            "duration": 1412818300
           },
           {
             "keyword": "Então ",
@@ -210,10 +210,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2761800
+              "duration": 5532100
             },
             "status": "passed",
-            "duration": 2761800
+            "duration": 5532100
           }
         ],
         "tags": [
@@ -229,17 +229,17 @@
             },
             "result": {
               "status": "passed",
-              "duration": 497500
+              "duration": 1447400
             },
             "status": "passed",
-            "duration": 497500
+            "duration": 1447400
           }
         ],
         "after": [
 
         ],
         "status": "passed",
-        "duration": 564253900
+        "duration": 1423144500
       },
       {
         "id": "manter-dados-de-startup-através-da-api;deletar-uma-startup",
@@ -258,10 +258,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000
+              "duration": 32300
             },
             "status": "passed",
-            "duration": 10000
+            "duration": 32300
           },
           {
             "keyword": "Quando ",
@@ -272,10 +272,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 569727000
+              "duration": 607394700
             },
             "status": "passed",
-            "duration": 569727000
+            "duration": 607394700
           },
           {
             "keyword": "Então ",
@@ -286,10 +286,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9366300
+              "duration": 1878200
             },
             "status": "passed",
-            "duration": 9366300
+            "duration": 1878200
           }
         ],
         "tags": [
@@ -305,20 +305,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 335300
+              "duration": 1529000
             },
             "status": "passed",
-            "duration": 335300
+            "duration": 1529000
           }
         ],
         "after": [
 
         ],
         "status": "passed",
-        "duration": 579438600
+        "duration": 610834200
       }
     ],
     "status": "working",
-    "duration": 5807792400
+    "duration": 8839184200
   }
 ]
